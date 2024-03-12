@@ -4,7 +4,7 @@ import nodePath from 'node:path';
 import mergeStreams from '@sindresorhus/merge-streams';
 import fastGlob from 'fast-glob';
 import {isDirectory, isDirectorySync} from 'path-type';
-import {toPath} from 'unicorn-magic';
+import {toPath} from 'unicorn-magic/node.js';
 import {
 	GITIGNORE_FILES_PATTERN,
 	isIgnoredByIgnoreFiles,
